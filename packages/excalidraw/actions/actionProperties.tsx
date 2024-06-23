@@ -791,6 +791,13 @@ export const actionChangeFontFamily = register({
         icon: FontFamilyCodeIcon,
         testId: "font-family-code",
       },
+      {
+        value: FONT_FAMILY.Muyao,
+        text: t("labels.handDrawn"),
+        icon: FreedrawIcon,
+        testId: "font-moyao-normal",
+      },
+
     ];
 
     return (

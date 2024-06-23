@@ -19,7 +19,8 @@
     "jotai": "1.13.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "socket.io-client": "4.7.2"
+    "socket.io-client": "4.7.2",
+    "yarn": "1.22.22"
   },
   "devDependencies": {
     "@excalidraw/eslint-config": "1.0.3",
@@ -38,6 +39,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-prettier": "3.3.1",
+    "gh-pages": "6.1.1",
     "http-server": "14.1.1",
     "husky": "7.0.4",
     "jsdom": "22.1.0",
@@ -57,7 +59,7 @@
   "engines": {
     "node": "18.0.0 - 20.x.x"
   },
-  "homepage": ".",
+  "homepage": "./",
   "prettier": "@excalidraw/prettier-config",
   "scripts": {
     "build-node": "node ./scripts/build-node.js",
@@ -87,6 +89,16 @@
     "autorelease": "node scripts/autorelease.js",
     "prerelease:excalidraw": "node scripts/prerelease.js",
     "build:preview": "yarn build && vite preview --port 5000",
-    "release:excalidraw": "node scripts/release.js"
-  }
+    "release:excalidraw": "node scripts/release.js",
+    "deploy": "gh-pages -d build"
+  },
+  "description": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">   <picture>     <source media=\"(prefers-color-scheme: dark)\" alt=\"Excalidraw\" srcset=\"https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png\" />     <img alt=\"Excalidraw\" src=\"https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png\" />   </picture> </a>",
+  "version": "1.0.0",
+  "main": ".lintstagedrc.js",
+  "directories": {
+    "example": "examples"
+  },
+  "author": "xsq <1805992019@qq.com>",
+  "license": "ISC",
+  "repository": "https://github.com/excalidraw/excalidraw"
 }
