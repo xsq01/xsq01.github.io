@@ -773,12 +773,13 @@ export const actionChangeFontFamily = register({
       icon: JSX.Element;
       testId: string;
     }[] = [
-      {
-        value: FONT_FAMILY.myfont,
+       {
+        value: FONT_FAMILY.Virgil,
         text: t("labels.handDrawn"),
         icon: FreedrawIcon,
-        testId: "font-moyao-normal",
+        testId: "font-family-virgil",
       },
+
       {
         value: FONT_FAMILY.Helvetica,
         text: t("labels.normal"),
@@ -790,6 +791,12 @@ export const actionChangeFontFamily = register({
         text: t("labels.code"),
         icon: FontFamilyCodeIcon,
         testId: "font-family-code",
+      },
+          {
+        value: FONT_FAMILY.myfont,
+        text: t("labels.handDrawn"),
+        icon: FreedrawIcon,
+        testId: "font-moyao-normal",
       },
  
 
