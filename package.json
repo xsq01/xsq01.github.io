@@ -90,7 +90,7 @@
     "prerelease:excalidraw": "node scripts/prerelease.js",
     "build:preview": "yarn build && vite preview --port 5000",
     "release:excalidraw": "node scripts/release.js",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ./excalidraw-app/build"
   },
   "description": "<a href=\"https://excalidraw.com/\" target=\"_blank\" rel=\"noopener\">   <picture>     <source media=\"(prefers-color-scheme: dark)\" alt=\"Excalidraw\" srcset=\"https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png\" />     <img alt=\"Excalidraw\" src=\"https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png\" />   </picture> </a>",
   "version": "1.0.0",
