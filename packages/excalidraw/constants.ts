@@ -116,10 +116,11 @@ export const CLASSES = {
 
 // 1-based in case we ever do `if(element.fontFamily)`
 export const FONT_FAMILY = {
- myfont: 1,
+   Virgil: 1,
   Helvetica: 2,
   Cascadia: 3,
   Assistant: 4,
+  myfont：5
 };
 
 export const THEME = {
